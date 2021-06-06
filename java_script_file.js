@@ -8,7 +8,7 @@ var wrrongAnswer2 = 'No'
 var numberOfStars=5
 
 
-<<<<<<< HEAD
+
 function wlecoming(){
 alert('Welcome to my fav. cars page')
 }
@@ -73,4 +73,3 @@ while(question2 <=5)
   document.write('<div>'+ '<img src="goldenStar.jpg" width="50" height="50">'+ "</div>")
   break;
 }
->>>>>>> a8f4ede25ded2458ced9c51a0b82c388befa182e
