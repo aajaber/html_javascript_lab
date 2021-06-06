@@ -8,6 +8,7 @@ var wrrongAnswer2 = 'No'
 var numberOfStars=5
 
 
+<<<<<<< HEAD
 function wlecoming(){
 alert('Welcome to my fav. cars page')
 }
@@ -44,3 +45,32 @@ while(question2 <=5)
 }
 }
 printStars();
+=======
+var question = prompt('Do you like cars')
+var attempt = 2;
+
+for (var i = 1; i < attempt; i++) {
+  if (question == correctAnswer2 || question == correctAnswer) {
+    alert('you may enter :p')
+    
+     break;
+  }
+else if (question == wrrongAnswer2 || question == wrongAnswer) {
+    var question = prompt('Do you like cars')
+    if(i<=2)
+  {
+    alert("get out :p")
+  }
+  }
+}
+
+var question2 = prompt('how many stars would you give this page (1-5)')
+
+while(question2 <=5)
+{
+  document.write('<div>' +' users rating for this page'+'</div>' +'<br>' )
+  for(var i = 0; i < question2; i++)
+  document.write('<div>'+ '<img src="goldenStar.jpg" width="50" height="50">'+ "</div>")
+  break;
+}
+>>>>>>> a8f4ede25ded2458ced9c51a0b82c388befa182e
